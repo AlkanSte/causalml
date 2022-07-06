@@ -113,7 +113,7 @@ where :math:`\hat{e}^{(-i)}(X_i)`, etc. denote the out-of-fold held-out predicti
 Doubly Robust (DR) learner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DR-learner :cite:`kennedy2020optimal` estiamtes the CATE via cross-fitting a doubly-robust score function in two stages as follows. We start by randomly split the data :math:`\{Y, X, W\}` into 3 partitions :math:`\{Y^i, X^i, W^i\}, i=\{1,2,3\}`.
+DR-learner :cite:`kennedy2020optimal` estimates the CATE via cross-fitting a doubly-robust score function in two stages as follows. We start by randomly split the data :math:`\{Y, X, W\}` into 3 partitions :math:`\{Y^i, X^i, W^i\}, i=\{1,2,3\}`.
 
 **Stage 1**
 
